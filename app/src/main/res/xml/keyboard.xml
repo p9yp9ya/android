@@ -14,7 +14,8 @@
         <Key android:codes="55" android:keyLabel="7"/>
         <Key android:codes="56" android:keyLabel="8"/>
         <Key android:codes="57" android:keyLabel="9"/>
-        <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
+        <Key android:codes="48" android:keyLabel="0"/>
+        <Key android:codes="-5" android:keyLabel="B" android:isRepeatable="true" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
         <Key android:codes="113" android:keyLabel="q" android:keyEdgeFlags="left"/>
@@ -29,7 +30,7 @@
         <Key android:codes="112" android:keyLabel="p" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="97" android:keyLabel="A" android:keyEdgeFlags="left"/>
+        <Key android:codes="97" android:keyLabel="a" android:popupKeyboard="@xml/popup_e" android:keyEdgeFlags="left"/>
         <Key android:codes="115" android:keyLabel="s"/>
         <Key android:codes="100" android:keyLabel="d"/>
         <Key android:codes="102" android:keyLabel="f"/>
@@ -55,8 +56,7 @@
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
         <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p" />
-        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
-        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="60%p" android:isRepeatable="true"/>
         <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>
